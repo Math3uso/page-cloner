@@ -34,6 +34,6 @@ npm run dev
 ```
 Caso queira executar uma página já existente execute:
 ```bash
-npm run dev -l
+npm run dev -- -l
 ```
 isso vai executar os arquivos existentes na pasta out
