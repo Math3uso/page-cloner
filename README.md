@@ -8,7 +8,7 @@ uma pequena ferramenta CLI feita com nodejs+puppeter que clona paginas pela URL.
 - [x] sobe o site em um servidor local
 - [x] cria um proxy para intermediar requizições
 - [x] salvar arquivos localmente
-- [] clona todas as paginas da URL
+- [] clona mais de uma página
 - [] refaz requicições para todos os metodos (atualmente epenas para GET e POST)
 
 
