@@ -36,7 +36,7 @@ export async function startServer() {
             console.log("server is run");
 
             if (fs.existsSync(path.join(process.cwd(), "out", "index.html"))) {
-                console.log("pagina encontrada, vá em: http://localhost:3001/index.html");
+                console.log(`pagina encontrada, vá em: http://localhost:${port}/index.html`);
             }
         }
     });
