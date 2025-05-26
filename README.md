@@ -13,7 +13,7 @@ uma pequena ferramenta CLI feita com nodejs+puppeter que clona paginas pela URL.
 
 
 ### Fluxo de uso
-Ao executar a ferramenta, informe a URL da página que deseja clonar e escolha se o JavaScript deve ser incluído ou não. Todas as requisições para APIs externas são interceptadas, processadas pelo servidor local e então entregues à página clonada. Os arquivos da página clonada ficam salvos no diretorio do projeto em /out.
+Ao executar a ferramenta, informe a URL da página que deseja clonar e escolha se o JavaScript deve ser incluído ou não. Todas as requisições para APIs externas são interceptadas, processadas pelo servidor local e então entregues à página clonada. Os arquivos da página clonada ficam salvos no diretorio do projeto em /out (este diretorio será criado automaticamente).
 
 ### Detalhes
 Esta ferramenta é ideal para landing pages, sites institucionais, páginas de vendas ou SPAs. No entanto, ainda não é possível clonar páginas que dependem de cookies ou outras informações sensíveis do navegador.
